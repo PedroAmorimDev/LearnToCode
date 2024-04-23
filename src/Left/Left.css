@@ -1,0 +1,42 @@
+.Caixa{
+    width: 500px;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+@media screen and (max-width:560px) {
+    .Caixa {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .Caixa {
+        height: 500px;
+        min-width: 100px;
+        width: 180px;
+        
+    }
+}
+@media screen and (max-width:255px) {
+    .paragraph{
+display: none;
+      
+    }
+    h1{
+        min-width: 20px;
+      width: 20px;
+      font-size: 25px;
+      
+    }
+    .Caixa{
+        height: 300px;
+    }
+}

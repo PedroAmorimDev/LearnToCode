@@ -1,0 +1,39 @@
+form {
+    background-color: aliceblue;
+    /* width: 525px; */
+    height: 410px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    padding: 20px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    max-width: 500px;
+}
+
+.CaixaRigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:560px) {
+    form {
+        width: 300px;
+    }
+}
+@media screen and (max-width:360px) {
+    form {
+        width: 200px;
+        
+    }
+}
+@media screen and (max-width:255px) {
+    form {
+        width: 90px;
+        
+    }
+}

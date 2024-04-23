@@ -1,0 +1,15 @@
+.Help{
+    color: gray;
+    font-size: 15px;
+   font-family: "Poppins", sans-serif;
+
+}
+.Helpspan{
+    color:hsl(0, 100%, 74%) ;
+}
+@media screen and (max-width:255px) {
+    .Help {
+        font-size: 12px;
+        
+    }
+}
